@@ -59,6 +59,8 @@ chroot chroot apt-get install engrampa -y
 chroot chroot apt-get install firefox-esr -y
 chroot chroot apt-get install unzip -y
 chroot chroot apt-get install zip -y
+chroot chroot apt-get install libreoffice -y
+chroot chroot apt-get install transmission -y
 chroot chroot apt-get install make -y
 chroot chroot apt-get install gettext -y
 chroot chroot apt-get install xfce4-screenshooter -y
@@ -69,6 +71,8 @@ chroot chroot apt-get install git -y
 chroot chroot apt-get install pip -y
 chroot chroot apt-get install gjs -y
 chroot chroot apt-get install vokoscreen -y
+chroot chroot apt-get install xorriso -y
+chroot chroot apt-get install mtools -y
 chroot chroot apt-get install xfce4-whiskermenu-plugin -y
 chroot chroot apt-get install xfce4-terminal -y
 chroot chroot apt-get install mate-calc -y

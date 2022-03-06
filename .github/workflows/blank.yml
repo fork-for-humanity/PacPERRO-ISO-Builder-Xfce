@@ -12,9 +12,11 @@ jobs:
       - uses: actions/checkout@v2
       - name: build
         run: |
+          sudo apt update
+          sudo apt install curl mtools squashfs-tools grub-pc-bin grub-efi xorriso debootstrap -y
           sudo bash pacperro-iso-builder-xfce.sh
           sudo mkdir -p /output
-          sudo mv *.iso /output/pacperro.iso
+          sudo mv *.iso /output/
 
 
       - uses: "marvinpinto/action-automatic-releases@latest"
